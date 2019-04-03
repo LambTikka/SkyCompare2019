@@ -1,0 +1,15 @@
+本程序需要先安装node.js 并可以完美地运行在Windows、MacOS和Linux上//安装好后在cmd下输入 node -v 如果出现版本说明安装成功
+本程序主要功能是找出两个内容的中的不同部分
+
+然后用记事本打开1.txt，把要比较的内容1拷进去
+然后用记事本打开2.txt，把要比较的内容2拷进去
+
+然后在本程序的目录下按Shift+右键打开cmd或powershell等命令行工具
+第一步输入 node compare   //在windows下用记事本打开时，默认编码为gb2312，不会出现乱码
+  或者输入 node compare0  //用notpad++打开填写1.txt和2.txt时，或者在Linux或者MacOS下，默认编码utf8，不会出现乱码
+第二步输入 node kill0     //它是不会把空格行删除掉的,如果文件较大，反应时间较长，属于正常
+  或者输入 node kill      //它是会把空格行删除掉的,如果文件较大，反应时间较长，属于正常
+第三步输入 node result    //显示内容1和内容2的差异
+  或者输入 node result1   //显示内容1中独有的内容
+  或者输入 node result2   //显示内容2中独有的内容
+第四步输入 node reset     //重置
